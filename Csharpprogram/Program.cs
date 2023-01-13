@@ -12,12 +12,29 @@ namespace Csharpprogram
 
 
         {
+            Console.WriteLine("welcome to cSharp basic program");
+            Console.WriteLine("Enter first Number");
+            int first = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter second Number");
+            int second= Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Welcome to csharp");
+            Calculator c1 = new Calculator(first, second);
+            
+            c1.Addition();
+            c1.Substraction();
+            c1.Multiplication();
+
+            c1.division();
             Console.ReadLine();
-            Console.WriteLine("Welcome locally");
-            Console.WriteLine("this is romotly");
-            Console.REadLine();
+
+
+
+
+
+
+
+
+
         }
     }
 }
