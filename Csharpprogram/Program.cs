@@ -16,6 +16,8 @@ namespace Csharpprogram
             Console.WriteLine("Welcome to csharp");
             Console.ReadLine();
             Console.WriteLine("Welcome locally");
+            Console.WriteLine("this is romotly");
+            Console.REadLine();
         }
     }
 }
